@@ -1,0 +1,23 @@
+Since the page is blocked, I will do the best I can in the dark without having seen the page.
+
+
+User should be able to login as a rider.  Once logged in as a rider, they should be able to choose to rent a car.  From there they should be presented an option of cars to choose from.  The user should then be able to select the car they want to rent and pay for it and it should be delivered in the time window or made available to pick up at a kiosk of some kind.
+
+
+Positive case - User should be able to rent a car
+
+    User logs in
+    User chooses to rent a car
+    Location for car to arrive is selected
+    Payment is processed
+    User can pick up car.
+
+
+Negative case - payment failed
+
+    User logs in
+    Users chooses to rent a car
+    Location for car to arrive is selected
+    Payment information is gathered
+    Payment fails
+    User is asked again to provide payment or choose a different method of riding.
